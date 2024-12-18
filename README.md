@@ -8,7 +8,7 @@ sudo yum -y update<br />
 sudo yum -y install ruby<br />
 sudo yum -y install wget<br />
 cd /home/ec2-user<br />
-wget https://aws-codedeploy-ap-southeast-1.s3.ap-southeast-1.amazonaws.com/latest/install <br />
+wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install <br />
 sudo chmod +x ./install<br />
 sudo ./install auto<br />
 sudo yum install -y python-pip<br />
